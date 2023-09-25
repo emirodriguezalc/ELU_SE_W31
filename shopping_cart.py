@@ -17,6 +17,7 @@ shopping_cart_total = calculate_total(CART)
 display_total(shopping_cart_total)
 """
 
+
 def calculate_total(cart):
     """calculates total price of items in cart
 
@@ -31,6 +32,7 @@ def calculate_total(cart):
         total += product['price']
     return total
 
+
 def display_total(total):
     """displays total price after calculations
 
@@ -38,6 +40,7 @@ def display_total(total):
         total (_int): total price
     """
     print("Total price: " + total)
+
 
 CART = [
     {'name': 'Item A', 'price': 10.99},
