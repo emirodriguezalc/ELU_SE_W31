@@ -8,8 +8,8 @@ def calculate_total(cart):
         int: total price
     """
     total = 0
-    for item in cart:
-        total += item['price']
+    for product in cart:
+        total += product['price']
     return total
 
 def display_total(Total):
