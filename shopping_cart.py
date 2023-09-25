@@ -12,13 +12,13 @@ def calculate_total(cart):
         total += product['price']
     return total
 
-def display_total(Total):
+def display_total(total):
     """displays total price after calculations
 
     Args:
         total (_int): total price
     """
-    print("Total price: " + Total)
+    print("Total price: " + total)
 
 CART = [
     {'name': 'Item A', 'price': 10.99},
