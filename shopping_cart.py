@@ -1,4 +1,12 @@
 def calculate_total(cart):
+    """calculates total price of items in cart
+
+    Args:
+        cart (array):array of items
+
+    Returns: 
+        int: total price
+    """
     total = 0
     total_items = len(cart)
     for item in cart:
@@ -6,6 +14,11 @@ def calculate_total(cart):
     return total
 
 def display_total(Total):
+    """displays total price after calculations
+
+    Args:
+        total (_int): total price
+    """
     print("Total price: " + Total)
 
 CART = [
