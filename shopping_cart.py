@@ -49,4 +49,3 @@ for item in CART:
 
 shopping_cart_total = calculate_total(CART)
 display_total(shopping_cart_total)
-
