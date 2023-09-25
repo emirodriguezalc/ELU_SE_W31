@@ -1,5 +1,6 @@
 """
-This module calculates and displays the total price of items in a shopping cart.
+This module calculates and displays the total price 
+of items in a shopping cart.
 
 Functions:
 - calculate_total(cart): Calculates the total price of items in the cart.
