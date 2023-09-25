@@ -1,5 +1,5 @@
 """
-This module calculates and displays the total price
+Calculates and displays the total price
 of items in a shopping cart.
 
 Functions:
