@@ -23,15 +23,16 @@ def calculate_total(cart):
 
     Args:
     ----
-        cart (array):array of items
+        cart (list): List of dictionaries containing items and their prices.
 
     Returns:
     -------
-        int: total price
+        float: Total price.
     """
-    total = 0
+    total = 0.0
     for product in cart:
-        total += product['price']
+        price = float(product['price'])
+        total += price
     return total
 
 
@@ -40,15 +41,15 @@ def display_total(total):
 
     Args:
     ----
-        total (_int): total price
+        total (float): Total price.
     """
-    print("Total price: " + total)
+    print("Total price: " + str(total))
 
 
 CART = [
     {'name': 'Item A', 'price': 10.99},
     {'name': 'Item B', 'price': 5.99},
-    {'name': 'Item C', 'price': '8.49'}
+    {'name': 'Item C', 'price': 8.49}
 ]
 
 for item in CART:
