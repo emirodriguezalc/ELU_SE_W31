@@ -1,5 +1,5 @@
 """
-This module calculates and displays the total price 
+This module calculates and displays the total price
 of items in a shopping cart.
 
 Functions:
@@ -24,7 +24,7 @@ def calculate_total(cart):
     Args:
         cart (array):array of items
 
-    Returns: 
+    Returns:
         int: total price
     """
     total = 0
