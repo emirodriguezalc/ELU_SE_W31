@@ -1,5 +1,6 @@
 import unittest
-from .shopping_cart import calculate_total, display_total
+
+from ..shopping_cart import calculate_total, display_total
 
 
 class TestShoppingCartFunctions(unittest.TestCase):
