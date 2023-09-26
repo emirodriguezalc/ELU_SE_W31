@@ -1,8 +1,8 @@
 import unittest
 from shopping_cart import calculate_total, display_total
 
-class TestShoppingCartFunctions(unittest.TestCase):
 
+class TestShoppingCartFunctions(unittest.TestCase):
     def test_calculate_total(self):
         cart_empty = []
         self.assertEqual(calculate_total(cart_empty), 0.0)
@@ -28,6 +28,7 @@ class TestShoppingCartFunctions(unittest.TestCase):
         with patch('sys.stdout', new_callable=io.StringIO) as mock_stdout:
             display_total(calculate_total(cart))
             self.assertEqual(mock_stdout.getvalue(), expected_output)
+
 
 if __name__ == '__main__':
     unittest.main()
